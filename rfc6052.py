@@ -37,9 +37,9 @@ def ipv6_to_ipv4(ipv6_address: str) -> str:
 
     hextets: List[str] = list(map(str, ipv6_address.split(':')[-2:]))
     return '{}.{}.{}.{}'.format(
-        int(hextets[0][0:2], 16), 
-        int(hextets[0][2:4], 16), 
-        int(hextets[1][0:2], 16), 
+        int(hextets[0][0:2], 16),
+        int(hextets[0][2:4], 16),
+        int(hextets[1][0:2], 16),
         int(hextets[1][2:4], 16)
     )
 
