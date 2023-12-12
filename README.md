@@ -9,6 +9,18 @@ To quote [the RFC's abstract](https://datatracker.ietf.org/doc/html/rfc6052),
 
 
 ## Examples
+### Command Line Usage
+```
+$ python3 rfc6052.py 192.168.1.3          
+64:ff9b::c0a8:0103
+```
+
+```
+$ python3 rfc6052.py 64:ff9b::c0a8:0103   
+192.168.1.3
+```
+
+### Module Usage
 **IPv4 to IPv6 translation**
 ```
     import rfc6052
