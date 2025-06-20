@@ -24,7 +24,7 @@ RFC 6052 defines a standard method for embedding IPv4 addresses within IPv6 addr
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rfc6052.git
+git clone https://github.com/notkobez/rfc6052.git
 cd rfc6052
 
 # Install in development mode
